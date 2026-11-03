@@ -1,0 +1,54 @@
+html{
+    background-color: #0F172A;
+}
+h1{
+    color: #F8FAFC;
+    text-align: center;
+}
+h2{
+    color: #FBBF24;
+    text-align: center;
+}
+p{
+    color: 	#CBD5E1;
+    text-align: center;
+}
+[href]{
+    color: #38BDF8;
+    text-align: center;
+}
+li{
+    color: #F8FAFC;
+    text-align: center;
+}
+footer{
+    color: #F8FAFC;
+    text-align: center;
+}
+img {
+    mix-blend-mode: screen;
+}
+img {
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black
+    );
+
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black
+    );
+}
+img {
+    opacity: 0.6;
+}
+.hero {
+    background:
+        linear-gradient(to right, #0F172A, transparent),
+        url("image.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
